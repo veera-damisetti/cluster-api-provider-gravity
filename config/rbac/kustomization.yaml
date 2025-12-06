@@ -22,6 +22,9 @@ resources:
 # default, aiding admins in cluster management. Those roles are
 # not used by the cluster-api-provider-gravity itself. You can comment the following lines
 # if you do not want those helpers be installed with your Project.
+- gravitymachine_admin_role.yaml
+- gravitymachine_editor_role.yaml
+- gravitymachine_viewer_role.yaml
 - gravitycluster_admin_role.yaml
 - gravitycluster_editor_role.yaml
 - gravitycluster_viewer_role.yaml
